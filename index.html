@@ -16,9 +16,9 @@
     <header class="cabecalho">
       <nav id="navbar">
         <ul class="navbar-ul">
-          <li><a class="navbar-item">Sobre</a></li>
-          <li><a class="navbar-item">Projetos</a></li>
-          <li><a class="navbar-item">Contatos</a></li>
+          <li><a href="#welcome-section" class="navbar-item">Sobre</a></li>
+          <li><a class="navbar-item" href="#projects">Projetos</a></li>
+          <li><a class="navbar-item" href="#contact">Contatos</a></li>
         </ul>
       </nav>
     </header>
@@ -33,51 +33,58 @@
 
     <!-- Seção dos projetos (deve ter SVG do fontawesome e os <a> levarem para o projeto no GitHub) -->
     <section id="projects">
-      <h1 class="project-header">Aqui estão alguns dos meus projetos:</h1>
-      <div class="project"> 
-        <a class="project-link">
-          <img class="project-img"> </img>
-          <p class="project-title">Landing page fictícia</p> 
-        </a>
+      <div class="project-header">
+        <h1 class="project-h1">Aqui estão alguns dos meus projetos:</h1>
       </div>
-      <div class="project"> 
-        <a class="project-link">
-          <img class="project-img"> </img>
-          <p class="project-title">Formulário</p> 
-        </a>
-      </div>
-      <div class="project"> 
-        <a class="project-link">
-          <img class="project-img"> </img>
-          <p class="project-title">Portfólio</p> 
-        </a>
+      <div class="projects-wrapper">
+        <div class="project"> 
+          <a class="project-link" href="https://github.com/victormorenodev/Landing-Page-Applemania" target="_blank">
+            <img class="project-img" src="https://i.imgur.com/o3XjpdP.png"> </img>
+            <p class="project-tile"><span>< </span>Landing page fictícia<span> /></span></p> 
+          </a>
+        </div>
+        <div class="project"> 
+          <a class="project-link" href="https://github.com/victormorenodev/Formulario" target="_blank">
+            <img class="project-img" src="https://i.imgur.com/Z4cFKO6.png"> </img>
+            <p class="project-tile"><span>< </span>Formulário<span> /></span></p> 
+          </a>
+        </div>
+        <div class="project"> 
+          <a class="project-link" href="https://github.com/victormorenodev/Personal-Portfolio" target="_blank">
+            <img class="project-img" src="https://i.imgur.com/B96j4rf.png"> </img>
+            <p class="project-tile"><span>< </span>Portfólio<span> /></span></p> 
+          </a>
+        </div>
       </div>
     </section>
 
     <!-- Seção dos contatos (deve levar pros meus links de contato, inclusive o email) -->
-    <section id="contact">
-      <h1 class="contact-title">Vamos trabalhar juntos?</h1>
-      <p class="contact-subtitle">Aqui estão os meus contatos pra ti ;)</p>
-        <div class="contact-links">
-          <a id="profile-link">
-            <!-- aqui vai um <i> do github --->
-            <p class="profile-link-title">GitHub</p>
-          </a>
-          <a id="profile-link">
-            <!-- aqui vai um <i> do linkedin --->
-            <p class="profile-link-title">LinkedIn</p>
-          </a>
-          <a id="profile-link">
-            <!-- aqui vai um <i> do email --->
-            <p class="profile-link-title">Email</p>
-          </a>
-        </div>
-    </section>
-    
-    <!-- Seção do footer, deve ter meu copyright -->
-    <footer>
-      <p class="footer-text">@ Criado por Victor Moreno</p>
-    </footer>
-    
+    <div class="last-bg">
+        <section id="contact">
+          <h1 class="contact-title">Vamos trabalhar juntos?</h1>
+          <p class="contact-subtitle">Aqui estão os meus contatos pra ti ;)</p>
+            <div class="contact-links">
+              <a id="profile-link" href="https://github.com/victormorenodev" target="_blank">
+                <!-- aqui vai um <i> do github --->
+                <i class="fa-brands fa-github"></i>
+                <p class="profile-link-title">GitHub</p>
+              </a>
+              <a id="profile-link" href="https://www.linkedin.com/in/victor-moreno-80291222b/" target="_blank">
+                <!-- aqui vai um <i> do linkedin --->
+                <i class="fa-brands fa-linkedin"></i>
+                <p class="profile-link-title">LinkedIn</p>
+              </a>
+              <a id="profile-link" href="mailto:victorgmoreno014@gmail.com? subject=Vamos trabalhar juntos?" target="_blank" >
+                <!-- aqui vai um <i> do email --->
+                <i class="fa-solid fa-envelope"></i>
+                <p class="profile-link-title">Email</p>
+              </a>
+            </div>
+        </section>
+      <!-- Seção do footer, deve ter meu copyright -->
+      <footer>
+        <p class="footer-text">@ Criado por Victor Moreno</p>
+      </footer>
+    </div>
   </body>
 </html>
